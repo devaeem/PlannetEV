@@ -10,8 +10,8 @@ export default function Navbar() {
 
   return (
     <>
-      <nav className="bg-gray-800">
-        <div className="max-w-7xl mx-auto px-2 ">
+      <nav className="bg-gray-800 fixed top-0 w-full z-50" >
+        <div className="max-w-7xl mx-auto px-2">
           <div className="relative flex items-center justify-between h-16">
             <div className="absolute inset-y-0 left-0 flex items-center sm:hidden">
               {/* Mobile menu button*/}
